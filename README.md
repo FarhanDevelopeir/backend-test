@@ -84,6 +84,8 @@ pip install fastapi uvicorn sse-starlette pydantic python-dotenv groq
 3. Create a `.env` file with your Groq API key:
 ```
 GROQ_API_KEY=your_groq_api_key_here
+
+OPENWEATHERMAP_API_KEY=your_openweathermap_api_key_here
 ```
 
 4. Run the FastAPI application:
